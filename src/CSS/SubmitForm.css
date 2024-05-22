@@ -1,0 +1,49 @@
+.content-p{
+    /* position: relative; */
+    /* top: 10px; */
+    /* left: 350px; */
+    /* margin-right: 100px; */
+}
+.emp-form-table{
+    position: relative;
+    left: 320px;
+    width: 50%;
+    top: 60px;
+    /* border: 1px solid black; */
+    /* margin-left: 200px; */
+    /* margin-right: 200px; */
+    /* bottom: 15px; */
+}
+.td-label{
+    text-align: right;
+    /* width: 20%; */
+}
+.td-input{
+    position: relative;
+    left: 30px;
+    /* width: 50%; */
+}
+.inputField{
+    /* outline: none; */
+    outline-color: skyblue;
+    width: 50%;
+    padding: 3px;
+    border-radius: 3px;
+}
+.table-btn{
+    position: relative;
+    top: 0px;
+    left: 150px;
+    outline: none;    
+    background-color: lightgreen;
+    border-radius: 2px;
+    border-style: none;
+    padding: 5px;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.error{
+    color: red;
+}
+

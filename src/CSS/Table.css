@@ -1,0 +1,62 @@
+.ViewPage-table{
+    position: relative;
+    /* right: 0px; */
+    top: 130px;
+    left: 30px;
+    /* overflow-x: scroll; */
+    /* height: 52vh;
+    width: 1550px; */
+    overflow-y: hidden;
+    z-index: 1;
+}
+.tableData{
+    width: 97%;
+
+}
+.viewPageTable-pagination{
+    position: relative;
+    top: 160px;
+    display: flex;
+   justify-content: center;
+   /* left: 20px; */
+   z-index: 2;
+}
+.viewPageTable-pagination li{
+    list-style: none;
+    color:  blue;
+    z-index: 3;
+    /* text-decoration: none; */
+}
+.table-td{
+    padding: 10px;
+}
+.pagination-item {
+    display: inline-block;
+    margin: 0 5px; 
+}
+
+.pagination-link {
+    display: inline-block;
+    padding: 5px 10px; 
+    font-size: 18px; /* Smaller font size */
+    color:black; /* Link color */
+    text-decoration: none; /* Remove underline */
+    /* border: 1px solid blue; Border around the link */
+    border-radius: 3px; /* Slightly rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and color */
+}
+
+.pagination-link:hover {
+    background-color: white; /* Light grey background on hover */
+    color: #0056b3; /* Darker blue text on hover */
+}
+
+.pagination-link:active {
+    background-color: #e0e0e0; /* Slightly darker grey on active */
+    color: #004494; /* Even darker blue text when active */
+}
+
+.pagination-link:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Custom focus outline */
+}

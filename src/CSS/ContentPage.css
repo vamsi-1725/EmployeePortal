@@ -1,0 +1,17 @@
+.selectBox{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.selectBox-ele{
+    outline: none;
+    width: 15%;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.empForm-page{
+    /* background-color: green; */
+    position: relative;
+    width: 50%;
+}
